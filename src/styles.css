@@ -1,0 +1,179 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#sdiv {
+  border: 1px solid balck;
+  float: left;
+  background-color: black;
+  color: white;
+  width: 12%;
+  padding: 20px;
+  height: 670px;
+}
+#sdiv > div {
+  margin-top: 20px;
+  width: 100%;
+}
+#sdiv > div:nth-child(1) {
+  margin-bottom: 60px;
+}
+#sdiv > div:nth-child(2) {
+  border-left: 2px solid white;
+  border-bottom: 1px solid white;
+}
+#sdiv > div:nth-child(8) {
+  margin-top: 40px;
+}
+
+.hdiv {
+  border: 1px solid black;
+  width: 20%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 120px;
+  height: 200px;
+  padding: 50px;
+}
+.hbtn {
+  width: 80px;
+  height: 28px;
+  border-radius: 20px;
+  background-color: rgba(91, 35, 245, 0.815);
+  color: white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+#abtn {
+  width: 80px;
+  height: 28px;
+  border-radius: 20px;
+  background-color: rgba(40, 163, 36, 0.815);
+  color: white;
+  padding: 2px;
+}
+#cmdiv {
+  width: 85%;
+  margin: auto;
+  float: right;
+  /* border: 1px solid black; */
+}
+#cfdiv {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+#statdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#statdiv > div:nth-child(1) {
+  width: 14%;
+}
+#statdiv > div:nth-child(4) {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 14%;
+}
+#statdiv > div:nth-child(7) {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 14%;
+}
+#statdiv > div:nth-child(10) {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 5%;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+#frm {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+#frm > input {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#filediv {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  height: 300px;
+}
+#filediv > div {
+  width: 50%;
+  border: 1px solid black;
+  height: 100%;
+}
+#txtdiv {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#txtdiv > div {
+  width: 80%;
+  margin: auto;
+  margin-left: 20px;
+  text-align: left;
+  border: 1px sold black;
+}
+#txtdiv > div > textarea {
+  width: 100%;
+  border: 1px solid white;
+}
+#Ffilediv {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.CdispDiv {
+  text-align: left;
+  display: inline-block;
+  width: 45%;
+  margin: auto;
+  margin-left: 5%;
+  height: 300px;
+}
+#Ffile {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  margin: auto;
+  margin-left: 5%;
+  height: 300px;
+}
+#Pfilediv {
+  margin: auto;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.Prdiv {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  height: 250px;
+  text-align: left;
+  padding: 20px;
+}
